@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header title={'zachy'}/>
+      <Header title={'Zachy'}/>
     </div>
   );
 }
