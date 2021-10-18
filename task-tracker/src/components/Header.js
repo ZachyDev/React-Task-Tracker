@@ -9,4 +9,7 @@ const Header = (props) => {
     )
 }
 
+Header.defaultProps = {
+    name: 'Moseti',
+}
 export default Header;

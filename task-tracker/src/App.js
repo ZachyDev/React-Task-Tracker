@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header name="Zachary"/>
+      <Header/>
     </div>
   );
 }
