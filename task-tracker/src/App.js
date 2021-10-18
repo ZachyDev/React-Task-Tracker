@@ -1,14 +1,16 @@
+import React from 'react';
+import Header from './components/Header';
 
 function App() {
-  const name = "Developer Moseti";
-  const x = false;
+  // const name = "Developer Moseti";
+  // const x = false;
 
   return (
     <div className="App">
-      <h1>Hello { name } </h1>
-      <p> Hello { x ? 'Yes' : 'No' }</p>
+      <Header/>
     </div>
   );
 }
+
 
 export default App;
