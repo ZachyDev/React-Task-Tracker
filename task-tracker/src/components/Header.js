@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Header = (props) => {
+const Header = ({ name }) => {
     return (
         <header>
             <h1>Task Tracker App</h1>
-            <p>This is { props.name } </p>
+            <p>This is { name } </p>
         </header>
     )
 }
