@@ -1,15 +1,19 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Header = ({ name }) => {
+const Header = ({ title }) => {
     return (
         <header>
             <h1>Task Tracker App</h1>
-            <p>This is { name } </p>
+            <p>This is { title } </p>
         </header>
     )
 }
 
 Header.defaultProps = {
-    name: 'Moseti',
+    title: 'Moseti',
+}
+Header.propTypes = {
+    title: PropTypes.string, 
 }
 export default Header;
