@@ -1,19 +1,16 @@
 import React from 'react';
 import Header from './components/Header';
-// function App() {
-//   const name = "Developer Moseti";
-//   const x = false;
 
-//   return (
-//     <div className="App">
-//       <Header />
-//     </div>
-//   );
-// }
+function App() {
+  // const name = "Developer Moseti";
+  // const x = false;
 
-class App extends React.Component {
-  render() {
-    return <h1>Hello from a class</h1>
-  }
+  return (
+    <div className="App">
+      <Header name="Zachary"/>
+    </div>
+  );
 }
+
+
 export default App;
